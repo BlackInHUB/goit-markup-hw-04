@@ -175,7 +175,7 @@ img {
 
 /* ----- HERO ----- */
 .section.hero {
-  width: 1600px;
+  max-width: 1600px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url(../images/hero-bg.jpg);
@@ -230,10 +230,6 @@ img {
   background-color: var(--middle-theme-background);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.benefits-icon-conteiner:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .benefits-title {
@@ -336,7 +332,10 @@ img {
 
 .clients-link {
   display: flex;
-  padding: 16px 32px;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
   border: 1px solid var(--light-icon-color);
   border-radius: 4px;
   fill: var(--light-icon-color);
@@ -423,7 +422,6 @@ footer {
 .social-link.footer-social-link:hover,
 .social-link.footer-social-link:focus {
   background-color: var(--accept-item-text-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .social-list-item:not(:last-child) {
